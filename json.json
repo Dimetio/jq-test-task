@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Victor",
+    "birthdate": "1990-08-11",
+    "email": "test1@gmail.com"
+  },
+  {
+    "name": "Nikola",
+    "birthdate": "1992-02-02",
+    "email": "test2@gmail.com"
+  },
+  {
+    "name": "Svetlana",
+    "birthdate": "1996-12-03",
+    "email": "test3@gmail.com"
+  },
+  {
+    "name": "Taras",
+    "birthdate": "1990-01-06",
+    "email": "test4@gmail.com"
+  },
+  {
+    "name": "Denis",
+    "birthdate": "1993-06-05",
+    "email": "test5@gmail.com"
+  }
+]

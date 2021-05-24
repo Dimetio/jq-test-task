@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Test Task</title>
+</head>
+
+<body>
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <form id="source" class="mb-3">
+            <label for="input" class="form-label">Введите URL</label>
+            <input type="text" class="form-control" id="input">
+            <button type="submit" class="btn btn-primary mt-3">Отправить</button>
+          </form>
+        </div>
+        <div class="row mb-3">
+          <label for="search" class="form-label">Введите что-то</label>
+          <input class="form-control" type="text" id="search" placeholder="Поиск" disabled>
+        </div>
+        <div class="row mb-3">
+         <div class="col">
+          <label for="range" class="form-label">Выбранный возраст:</label>
+          <span class="change_range--year"></span>
+          <span class="change_range--age"></span>
+          <input type="range" class="form-range" min="0" max="5" step="1" id="range" disabled>
+         </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="col">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Имя</th>
+                <th scope="col">Возраст</th>
+                <th scope="col">Email</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
