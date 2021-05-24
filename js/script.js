@@ -70,13 +70,10 @@ $(document).ready(function () {
     }));
   }
 
-  var newArr = [];
+  
   // живой поиск по таблице
   function updateTable(value) {
     $('.table tbody tr').filter(function () {
-      if ($(this).text().toLowerCase().indexOf(value) > -1) {
-        newArr.push($(this).text().replace(/\r?\n/g, "").replace(/\s+/g, ', '))
-      }
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
     });
   }
